@@ -104,7 +104,7 @@ const GlimpzLanding = () => {
       </section>
 
       <footer className="container mx-auto px-6 py-8 text-center text-purple-200">
-        <p>&copy; 2025 Glimpz. All rights reserved.</p>
+        <p>&copy; 2025 Coded Thinking OÜ. All rights reserved.</p>
       </footer>
     </div>
   );
