@@ -4,7 +4,9 @@ const nextConfig = {
     images: {
       unoptimized: true,
     },
-    basePath: '', // Replace with your repo name
+    // Remove basePath if you're using a custom domain
+    // basePath: '/glimpz-landing', 
+    assetPrefix: '/', // This ensures assets are loaded from the root
   }
   
-module.exports = nextConfig
+  module.exports = nextConfig
